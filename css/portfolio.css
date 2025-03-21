@@ -270,6 +270,12 @@ body {
     transition-duration: 0.3s;
 }
 
+/*GitHub*/
+.containerFive:hover {
+    background-color: #6e5494;
+    transition-duration: 0.3s;
+}
+
 .socialContainer:active {
     transform: scale(0.9);
     transition-duration: 0.3s;
