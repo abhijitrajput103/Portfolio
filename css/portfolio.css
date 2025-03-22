@@ -35,8 +35,12 @@ body {
 }
 
 .nav-link:hover {
-    color: #ff7e5f !important; 
+    color: #ff7e5f; 
 }
+.navbar-collapse {
+    transition: height 0.3s ease;
+}
+
 /* Person Section */
 .person {
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.7), rgba(40, 40, 50, 0.9)), 
@@ -302,7 +306,7 @@ body {
 
 @media (max-width: 768px) {
     .navbar ul {
-        display: none;
+        display: block;
         position: absolute;
         top: 70px;
         left: 0;
