@@ -1,12 +1,12 @@
-/** @type {import('next').NextConfig} */
-const isGithubPages = process.env.NODE_ENV === 'production';
+// next.config.js
 
-const nextConfig = {
-  output: 'export',
-  basePath: isGithubPages ? '/Portfolio' : '',
+const isProd = process.env.NODE_ENV === 'production';
+
+module.exports = {
+  reactStrictMode: true,
+  assetPrefix: isProd ? '/Portfolio/' : '',
+  basePath: isProd ? '/Portfolio' : '',
   images: {
     unoptimized: true,
   },
 };
-
-module.exports = nextConfig;
