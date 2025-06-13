@@ -120,7 +120,7 @@ export default function Home() {
           </div>
         </div>
         <div className="home-img">
-          <Image src="/images/image.jpg" alt="Home Image" />
+     <Image src="/images/image.jpg" alt="Home Image" width={400} height={500} />
         </div>
       </section>
 
@@ -201,7 +201,7 @@ export default function Home() {
           <h2 className="heading">Projects</h2>
           <div className="wrapper">
             <div className="project-item">
-              <Image className="img" src="/images/chat_app.png" alt="Chat App" />
+              <Image className="img" src="/images/chat_app.png" alt="Chat App" width={400} height={300} />
               <h2>Live Chat App</h2>
               <p>
                 Built a real-time chat application using the MERN stack (MongoDB, Express.js, React, Node.js) and
@@ -220,7 +220,7 @@ export default function Home() {
             </div>
 
             <div className="project-item">
-              <Image className="img" src="/images/NETFLIX.webp" alt="Netflix Clone Project" />
+              <Image className="img" src="/images/NETFLIX.webp" alt="Netflix Clone Project" width={400} height={300} />
               <h2>Netflix Clone</h2>
               <p>
                 A Netflix clone built using HTML, CSS, and Javascript. The application features a user interface similar
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
 
             <div className="project-item">
-              <Image className="img" src="/images/ECOMMERCE.webp" alt="Blog Website Project" />
+              <Image className="img" src="/images/ECOMMERCE.webp" alt="Blog Website Project" width={400} height={300} />
               <h2>Ecommerce Website</h2>
               <p>
                 A Ecommerce website built using React.js, Node.js and MongoDB. The website allows admin to create, edit,
@@ -255,7 +255,7 @@ export default function Home() {
             </div>
 
             <div className="project-item">
-              <Image className="img" src="/images/Weather.webp" alt="Weather App Project" />
+              <Image className="img" src="/images/Weather.webp" alt="Weather App Project" width={400} height={300} />
               <h2>Weather App</h2>
               <p>
                 A weather application that displays the current weather conditions for a given location. The app uses
@@ -272,7 +272,7 @@ export default function Home() {
             </div>
 
             <div className="project-item">
-              <Image className="img" src="/images/oxytours.webp" alt="Expense Tracker Project" />
+              <Image className="img" src="/images/oxytours.webp" alt="Expense Tracker Project" width={400} height={300} />
               <h2>Tours & Travel Website</h2>
               <p>
                 Allows users to book tours and travel packages. The website features a responsive design, user-friendly
