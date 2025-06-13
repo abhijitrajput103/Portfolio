@@ -483,7 +483,7 @@ span {
     margin-bottom: 5rem;
 }
 
-.projects-box img {
+.img {
     width: 35rem;
     border-radius: 1%;
     border: 3px solid var(--main-color);
