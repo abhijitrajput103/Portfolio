@@ -105,7 +105,7 @@ export default function Home() {
             <a href="https://www.instagram.com/abhijit__rajput_?igsh=anBpNmY1MTNxYnpq" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="mailto:abhijeetrajput103@gmail.com" rel="noopener noreferrer">
+            <a href="#contact">
               <i className="fa-solid fa-envelope"></i>
             </a>
           </div>
@@ -336,7 +336,7 @@ export default function Home() {
           <a href="https://www.instagram.com/abhijit__rajput_?igsh=anBpNmY1MTNxYnpq" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-instagram"></i>
           </a>
-          <a href="mailto:abhijeetrajput103@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="#contact">
             <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
